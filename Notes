@@ -1,0 +1,11 @@
+# Create a text display
+desc is textClass
+desc position spherical 0 15 1
+desc origin "center"
+desc textScale 2 2
+desc text "transition command examples."
+scene add desc fixed
+
+#cross hairs
+scene zoom venus
+
