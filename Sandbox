@@ -1,3 +1,91 @@
 ; commands to test:
 dome color grey
 ;does this overide all current images?
+
+
+#This is just kind of an outline. I figure someone
+#can add durations to the transitions and dome colors 
+#and other stuff needed to complete these scenes.
+#Not all the scenes have text because the creative team
+#hasn't finished all of it. Anyway! Let me know if you
+#have any questions on slack about what I've done.
+# -Nathan
+
+
+#CREATING OUR TEXT OBJECT
+desc is textClass
+desc position spherical 0 15 1
+desc origin "left"
+desc textScale 2 2
+desc color white
+
+#THIS IS FOR THE CORE SCENE
+stars off
+planets off
+sun off
+dome color black
+desc text "Earth's Core Scene"
+
+#TRANSITION
+desc text ""
+
+#THIS IS FOR THE MANTLE SCENE
+dome color red
+desc text "We are now in the mantle, the |gooey slow-moving lava underneath the surface |of the Earth. The mantle is made up of 44.8% |oxygen, 21.5% silicon, and 22.8% magnesium. |There's also iron, aluminum, calcium, sodium, |and potassium. It is about 1,800 miles thick |and makes up nearly 80% of the Earth's total volume."
+scene add desc fixed
+
+#TRANSITION
+desc text ""
+
+#THIS IS FOR THE CRUST SCENE
+desc text "Here we see the Earth's crust. The crust |is only about 3-5 miles thick |under the oceans and about 25 miles thick |under the continents. On top of the crust |we find life such as humans who congregate |in areas such as Ephraim, which you see here."
+
+#TRANSITION
+desc text ""
+
+#THIS IS FOR THE EARTH LAYERS CUT IN HALF SCENE
+desc text "Earth has a solid iron inner core with |a liquid outer core made up of nickel-alloy. |The mantle is a very hot plastic like layer |that makes up a vast majority of the total|mass of the Earth. The crust is the smallest |layer and is the part of the Earth that we live on."
+
+#TRANSITION 
+desc text ""
+
+#THIS IS FOR THE APOLLO 11 LANDING SITE SCENE
+desc text "The Apollo 11 landing site is the site |where Niel Armstrong took his first steps |on the Moon. The astronauts of the Apollo |missions brought back significant amounts |of lunar rock and showed us how to continue |to explore space. This historic event ended |the space race between the United States and |the Soviet Union."
+
+#TRANSITION
+desc text ""
+
+#THIS IS FOR THE MARS SCENE
+desc text "Mars is one of the most observed bodies in |the solar system. It is the 4th planet in the |solar system and roughly half the size of |Earth. Over the course of 40 years, many missions |have been sent to Mars from rovers to fly-by |missions. This extensive research on the surface |has shown that Mars had liquid water flowing on |its surface in the past. Signs of rivers and |oceans are prevalent on Mars. With water being |present in Mars’ past, it is possible that some |form of life could have existed on Mars as well."
+
+#TRANSITION
+desc text ""
+
+#THIS IS FOR THE NEPTUNE SCENE
+desc text "Gaseous planets, such as Neptune, typically |have rings and do not have a surface. If we |were to send an astronaut to one of the Jovian |planets they would sink to the center and be |crushed by the pressure, never being able to |land on a solid crust."
+
+#TRANSITION
+desc text ""
+
+#THIS IS FOR THE KEPLER BELT SCENE
+desc text "Kepler Belt Scene"
+
+#TRANSITION
+desc text ""
+
+#THIS IS FOR THE PLUTO SCENE
+desc text "Pluto Scene"
+
+#TRANSITION
+desc text ""
+
+#THIS IS FOR THE OORT CLOUD SCENE
+desc text "The Oort Cloud is the edge of the solar |system. Scientists dont know much, but are |confident that it is a roughly spherical |region of comets whose center is the sun. |It marks the external boundaries of the |Solar System."
+
+#TRANSITION
+desc text ""
+
+#THIS IS FOR THE PLANET X SCENE
+desc text "Planet X Scene and a joke written by us about how buster is the planet"
+
+#END OF SHOW
