@@ -36,6 +36,11 @@ scene add desc fixed
 desc text ""
 
 #THIS IS FOR THE CRUST SCENE
+planets on
+moon on
+stars on
+pluto on
+sun on
 desc text "Here we see the Earth's crust. The crust |is only about 3-5 miles thick |under the oceans and about 25 miles thick |under the continents. On top of the crust |we find life such as humans who congregate |in areas such as Ephraim, which you see here."
 
 #TRANSITION
