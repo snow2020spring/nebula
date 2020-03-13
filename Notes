@@ -8,3 +8,18 @@ scene add desc fixed
 
 #cross hairs
 scene zoom venus
+
+#to start with a blank screen
+system.reset
+
+#You need to activate all the objects you want on the screen
+planets on
+moon on
+pluto on 
+stars on
+
+#before flyto you need to activate navigiation
+navigiation on
+
+# flyto with freeflight on this will stop the spining
+navigiation freeflight on
