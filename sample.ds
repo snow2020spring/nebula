@@ -1,0 +1,31 @@
+# This script illustrates the turnTo and moveTo controllers
+# working together. The moveTo controller uses exponential
+# speed curves.
+system reset
+scene date 2014-2-21 17:05:53
+stars on
+planets on
+moon on
+earthmarker on
+scene att 0 -45 0
+jupiterFrame is emptyClass
+jupiterFrame position 2 2 0 rjupiter
+jupiterPosition add jupiterFrame
++1
+eye moveTo earth sourceRadius 1 rearth targetRadius 1 rearth dur 10
+eye offset 0 -2 0 rearth dur 10 3 3
++2
+sun on
+eye turnTo earth dur 5 2 2
++5
+eye turnTo stop
++5
+eye moveTo jupiterFrame sourceRadius 1 rearth targetRadius 1 rjupiter dur 10
++2
+eye offset 0 0 0 dur 8 3 3
+eye turnTo jupiter dur 5 2 2
++10
+eye turnTo earth dur 5 2 2
++2
+eye moveTo earth sourceRadius 1 rjupiter targetRadius 1 rearth dur 10
+eye offset 0 -2 0 rearth dur 10 3 3
