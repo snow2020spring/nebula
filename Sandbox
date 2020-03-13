@@ -20,9 +20,7 @@ desc textScale 2 2
 desc color white
 
 #THIS IS FOR THE CORE SCENE
-stars off
-planets off
-sun off
+scene reset
 dome color black
 desc text "Earth's Core Scene"
 
